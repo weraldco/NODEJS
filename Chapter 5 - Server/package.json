@@ -1,0 +1,19 @@
+{
+	"dependencies": {
+		"date-fns": "^3.6.0",
+		"uuid": "^10.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.4"
+	},
+	"name": "chapter-5---server",
+	"version": "1.0.0",
+	"main": "eventLogs.js",
+	"scripts": {
+		"dev": "nodemon server",
+		"start": "node server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}
