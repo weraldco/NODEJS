@@ -1,0 +1,7 @@
+20240825	07:41:53	71e41f02-36d8-4ffe-97d1-a55586f60e07	TypeError: res.sendFile is not a function
+20240825	07:43:52	d4443c65-ace3-49a7-8029-784b4673e87d	TypeError: res.sendFile is not a function
+20240825	07:45:34	a0a17ac5-44e4-4d88-bd9e-3f5eacb9bdd0	TypeError: res.sendFile is not a function
+20240825	07:45:35	eee62415-4da2-40e7-946f-b4fca1991cf8	TypeError: res.sendFile is not a function
+20240825	07:49:20	50eb5338-dfaf-4e6f-a97c-d8bd8003ba5b	TypeError: res.sendFile is not a function
+20240825	14:12:03	bbaa5937-d33d-4fd6-b01a-096c1877c8bb	Error: ENOENT: no such file or directory, stat '/Users/MAC/Projects/NODEJS/Chapter 8 - ExpressJS Routes/routes/views/index.html'
+20240825	14:48:06	37e0ac9e-8fbc-470e-b9f4-a9004be8d56b	SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
