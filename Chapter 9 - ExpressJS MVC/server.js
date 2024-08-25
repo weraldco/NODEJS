@@ -4,23 +4,11 @@ const path = require('path');
 const cors = require('cors');
 const { logger, logEvents } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
+const corsOptions = require('./config/corsOptions');
 const PORT = process.env.PORT || 3500;
 
 // Custom middleware
 app.use(logger);
-
-const whiteList = ['https://www.yoursite.com'];
-
-const corsOptions = {
-	origin: (origin, callback) => {
-		if (whiteList.indexOf(origin) !== -1 || !origin) {
-			callback(null, true);
-		} else {
-			callback(new Error('Not allowed by CORS'));
-		}
-	},
-	optionsSuccessStatus: 200,
-};
 
 // Allowed all the site from whitelist to access api from your site.
 // Cross Origin Resource Sharing
@@ -34,10 +22,8 @@ app.use(express.json());
 // serve static files
 // express.static('folder path')
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/subdir', express.static(path.join(__dirname, 'public')));
 
 app.use('/', require('./routes/root'));
-app.use('/subdir', require('./routes/subdir'));
 app.use('/employees', require('./routes/api/employees'));
 
 app.all('*', (req, res) => {
