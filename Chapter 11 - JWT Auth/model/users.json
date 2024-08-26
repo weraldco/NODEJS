@@ -1,1 +1,11 @@
-[{"username":"werald","password":"$2b$10$pLFO/jlajCw75K5TRMx5O.TDyySt2LQzodp.nmo1p4yej.e233iuK"},{"username":"weraldco","password":"$2b$10$DYyq6B22nq/m1CMFcy1epOVwEQ9M3ib4pY0iLX0si0n42O7FCdSxa","refreshToken":""}]
+[
+	{
+		"username": "werald",
+		"password": "$2b$10$pLFO/jlajCw75K5TRMx5O.TDyySt2LQzodp.nmo1p4yej.e233iuK"
+	},
+	{
+		"username": "weraldco",
+		"password": "$2b$10$DYyq6B22nq/m1CMFcy1epOVwEQ9M3ib4pY0iLX0si0n42O7FCdSxa",
+		"refreshToken": ""
+	}
+]
