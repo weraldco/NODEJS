@@ -7,6 +7,8 @@
 		"dotenv": "^16.4.5",
 		"express": "^4.19.2",
 		"jsonwebtoken": "^9.0.2",
+		"mongodb": "^6.8.0",
+		"mongoose": "^8.5.4",
 		"uuid": "^10.0.0"
 	},
 	"name": "chapter-12---user-roles",

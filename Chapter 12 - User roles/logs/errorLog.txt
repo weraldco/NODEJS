@@ -7,3 +7,4 @@
 20240825	14:48:06	37e0ac9e-8fbc-470e-b9f4-a9004be8d56b	SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
 20240826	01:58:08	46516ec5-5c32-43b7-a4c2-9518cf18cf34	ReferenceError: setEmployees is not defined
 20240826	02:15:21	44dad30c-8b62-4686-acf0-58147c91ed93	Error: ENOENT: no such file or directory, stat '/Users/MAC/Projects/NODEJS/Chapter 10 - Authentication/views/new-page.html'
+20240827	07:19:21	bc947634-fbcf-418b-84fd-2e40e04a5d9a	TypeError: authHeader?.startWith is not a function
