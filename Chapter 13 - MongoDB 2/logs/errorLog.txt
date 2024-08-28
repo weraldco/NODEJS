@@ -1,0 +1,19 @@
+20240825	07:41:53	71e41f02-36d8-4ffe-97d1-a55586f60e07	TypeError: res.sendFile is not a function
+20240825	07:43:52	d4443c65-ace3-49a7-8029-784b4673e87d	TypeError: res.sendFile is not a function
+20240825	07:45:34	a0a17ac5-44e4-4d88-bd9e-3f5eacb9bdd0	TypeError: res.sendFile is not a function
+20240825	07:45:35	eee62415-4da2-40e7-946f-b4fca1991cf8	TypeError: res.sendFile is not a function
+20240825	07:49:20	50eb5338-dfaf-4e6f-a97c-d8bd8003ba5b	TypeError: res.sendFile is not a function
+20240825	14:12:03	bbaa5937-d33d-4fd6-b01a-096c1877c8bb	Error: ENOENT: no such file or directory, stat '/Users/MAC/Projects/NODEJS/Chapter 8 - ExpressJS Routes/routes/views/index.html'
+20240825	14:48:06	37e0ac9e-8fbc-470e-b9f4-a9004be8d56b	SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+20240826	01:58:08	46516ec5-5c32-43b7-a4c2-9518cf18cf34	ReferenceError: setEmployees is not defined
+20240826	02:15:21	44dad30c-8b62-4686-acf0-58147c91ed93	Error: ENOENT: no such file or directory, stat '/Users/MAC/Projects/NODEJS/Chapter 10 - Authentication/views/new-page.html'
+20240827	07:19:21	bc947634-fbcf-418b-84fd-2e40e04a5d9a	TypeError: authHeader?.startWith is not a function
+20240828	08:59:43	797c7e30-4ca0-4dde-9474-7189b285d54c	TypeError: Employee.findAll is not a function
+20240828	10:34:15	727dc539-f9e6-41df-8915-f75477c22915	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+20240828	11:04:21	f1462f9c-c77f-46a8-87d5-513bd9099861	SyntaxError: Expected ',' or '}' after property value in JSON at position 8 (line 1 column 9)
+20240828	11:04:27	895b2775-894c-4318-a307-ea6d25073724	SyntaxError: Unexpected token ''', "{"id":'66ce936ce"... is not valid JSON
+20240828	11:29:51	44c942d6-adef-4396-a752-d9f78c97b732	SyntaxError: Unexpected token ''', "{"id":'66ce999c9"... is not valid JSON
